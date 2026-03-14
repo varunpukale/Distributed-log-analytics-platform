@@ -49,3 +49,21 @@ Components include:
 - Advanced log analytics
 - Role-based access control
 - Stream processing optimization
+
+## System Architecture
+
+```
+Microservices
+      │
+      ▼
+    Kafka
+      │
+      ▼
+ Log Processor
+      │
+      ▼
+   MongoDB
+      │
+      ▼
+      API 
+```
